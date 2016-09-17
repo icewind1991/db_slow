@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<info>
+	<id>db_slow</id>
+	<name>Database slowdown</name>
+	<description>Slow down datsbase queries for performance debugging</description>
+	<licence>AGPL</licence>
+	<author>Robin Appelman</author>
+	<namespace>DB_Slow</namespace>
+	<types>
+		<!--Load as early as possible-->
+		<session/>
+	</types>
+	<dependencies>
+		<owncloud min-version="8.1" max-version="9.2"/>
+	</dependencies>
+	<version>0.1.1</version>
+	<standalone/>
+</info>
